@@ -60,10 +60,10 @@ task integration(type:Test, description: 'Integration testing of API', group:'Ve
 }
 
 sonarqube {
-  propriedades {
-    propriedade "sonar.projectKey", "cristianeviana_Goal-List-CI-CD"
-    propriedade "sonar.organization", "cristianeviana"
-    propriedade "sonar.host.url", "https://sonarcloud.io"
+  properties {
+    property "sonar.projectKey", "cristianeviana_Goal-List-CI-CD"
+    property "sonar.organization", "cristianeviana"
+    property "sonar.host.url", "https://sonarcloud.io"
   }
 }
 
