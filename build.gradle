@@ -61,9 +61,9 @@ task integration(type:Test, description: 'Integration testing of API', group:'Ve
 
 sonarqube {
   properties {
-    property "sonar.projectKey", "uirakulesza_Goal-List-CI-CD"
-    property "sonar.organization", "uirakulesza-1"
-    property "sonar.host.url", "https://sonarcloud.io"
+    propriedade "sonar.projectKey", "cristianeviana_Goal-List-CI-CD"
+    propriedade "sonar.organization", "cristianeviana"
+    propriedade "sonar.host.url", "https://sonarcloud.io"
   }
 }
 
